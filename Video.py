@@ -1,6 +1,6 @@
-from Exibition import *
+from Exhibition import *
 
-class Video(Exibition):
+class Video(Exhibition):
     def __init__(self, path, title):
         self.setPath(path)
         self.setTitle(title)

@@ -1,8 +1,8 @@
-from Exibition import *
+from Exhibition import *
 
 from config import *
 
-class Webcam(Exibition):
+class Webcam(Exhibition):
     def __init__(self, title, configurations):
         self.setTitle(title)
         self.setConfigurations(configurations)

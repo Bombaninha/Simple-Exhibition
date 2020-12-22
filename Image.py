@@ -1,6 +1,6 @@
-from Exibition import *
+from Exhibition import *
 
-class Image(Exibition):
+class Image(Exhibition):
     def __init__(self, path, title):
         self.setPath(path)
         self.setTitle(title)
