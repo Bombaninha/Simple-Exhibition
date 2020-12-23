@@ -1,6 +1,6 @@
 import cv2
 
-class Exibition:
+class Exhibition:
     def __init__(self):
         pass
 
